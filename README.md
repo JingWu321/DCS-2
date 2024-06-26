@@ -22,14 +22,14 @@ conda env create -f environment.yml
 ```
 
 ### 2. Evaluate against MIAs
-The script can be found under dlg/scripts, below is an example without any defenses.
+The script can be found under [dlg/scripts](dlg/scripts), below is an example without any defenses.
 
 ```
 CUDA_VISIBLE_DEVICES=0 python dlg/main.py --demo --batch_idx=3 --output_dir='./logs/demo' --n_data=64 --dataset='MNIST' --defense='none'
 ```
 
 ### 3. Train in FL with defenses
-The script can be found under fl/scripts.
+The script can be found under [fl/scripts](fl/scripts).
 
 
 ## BibTeX
